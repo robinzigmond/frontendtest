@@ -3,11 +3,9 @@ $(".carousel").carousel({
 });
 
 $(window).on("load", function() {
-    $(".blog-image").hover(function(event) {
+    $(".blog-image").hover(function() {
         $(this).children(".fa").show();
-        event.preventDefault(); // to stop touching the popup being trigger on touch-screen devices
-    }, function(event) {
+    }, function() {
         $(this).children(".fa").hide();
-        event.preventDefault;
     });
 });
