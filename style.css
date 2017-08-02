@@ -135,6 +135,16 @@ nav {
 
 .blog-image {
     margin-top: 30px;
+    position: relative;
+}
+
+.blog-image .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: none;
 }
 
 .blog-image img {
@@ -265,7 +275,7 @@ footer a, footer a:hover {
 DONE! 1) find suitable social media icons (or make own?)
 DONE! 2) find some way to do "brand" icon on left of navbar (find image? doable with CSS?)
 DONE! 3) fix "hamburger icon" to look more like screenshot
-4) replace top image by carousel (bootstrap!)
+DONE! 4) replace top image by carousel (bootstrap!)
 5) add "rollover" effects on pics. (Jquery? Bootstrap?)
 6) add necessary CSS to enable to work on desktop. Don't forget to change link colors on navbar!
 also footer, and "levelling" posted-by messages with pictures. No doubt plenty of others!
